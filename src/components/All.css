@@ -1,0 +1,87 @@
+.navbar{
+    display: flex;
+    gap: 41px;
+    margin-left: 31%;
+    
+}
+
+.navbar>button{
+    margin-top: 31px;
+    margin-bottom: 31px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top:4px;
+    padding-bottom:4px;
+    border-radius: 21px;
+}
+
+.navbar>button:hover{
+    background-color: royalblue;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:18px;
+    flex-wrap: wrap;
+
+}
+
+.grid>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.mainBox{
+    width: 81%;
+    margin: auto;
+    
+}
+
+
+.grid>div>img{
+    width: 70%;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:18px;
+        
+    
+    }
+    
+  }
+@media only screen and (max-width: 399px) {
+    .grid{
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:18px;
+        flex-wrap: wrap;
+    
+    }
+
+    .mainBox{
+        width: 81%;
+        margin-left: 36%;
+        
+    }
+  }
+
+
+
+
+.paginationButton{
+    margin: 7px;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top:4px;
+    padding-bottom:4px;
+
+}
